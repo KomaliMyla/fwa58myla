@@ -14,3 +14,4 @@ router.get("/", function (req, res, next) {
     
          abs of ${-num1} is: ${abs}`);
 });
+module.exports = router;
