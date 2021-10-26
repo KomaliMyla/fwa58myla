@@ -4,7 +4,8 @@ var hk = 0;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send(hk= 1,'User accesses are: '+hk);
+  hk++;
+  res.send('User accesses are: '+hk);
 });
 
 module.exports = router;
