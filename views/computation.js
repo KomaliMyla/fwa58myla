@@ -12,6 +12,6 @@ router.get("/", function (req, res, next) {
   abs = Math.abs(-num1);
   res.send(`log of ${num1} is: ${sin} <br>
     
-         abs of ${num1} is: ${abs}`);
+         abs of ${-num1} is: ${abs}`);
 });
 module.exports = router;
